@@ -7,10 +7,18 @@ body {
 	color: white;
 }
 
-.header-box {
+#header-box {
 	font-size: 24px;
 	margin-top: 3em;
 	margin-bottom: 0em;
+}
+
+#content-box {
+	margin-top: 3em;
+}
+
+#green-line {
+	color: #7AB55C;
 }
 
 .input-group-addon {
