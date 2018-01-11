@@ -3,7 +3,18 @@ function signUp() {
 	var email_elem = document.getElementById("email");
 	
 	var email = email_elem.value;
-	alert(typeof(email));
-	alert(email);
-	msg_prompt.style.opacity = 1;
+	
+	if (!validEmail(email)) {
+		msg_prompt.style.opacity = 1;
+	} else {
+		msg_prompt.style.opacity = 0;
+	}
+}
+
+/*
+Simple JS email validation from: https://stackoverflow.com/questions/46155/how-can-you-validate-an-email-address-in-javascript
+*/
+function validEmail(email) {
+	var regex = /\S+@\S+\.\S+/;
+	return regex.test(email);
 }
