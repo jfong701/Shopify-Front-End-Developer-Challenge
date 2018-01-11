@@ -1,0 +1,42 @@
+body {
+	background: #000639;
+}
+
+.container {
+	font-family: Consolas,Helvetica,non-serif;
+}
+
+.jumbotron {
+	background: rgba(0, 0, 0, 0);
+	border-bottom-style: solid;
+	border-color: red;
+}
+
+.jumbotron h1 {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+.input-group-addon {
+	opacity: 0;
+}
+
+#email {
+	font-size: 16px;
+}
+
+#subscribe-headline {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+#message {
+	color: #C23628;
+}
+
+#sign-up-btn {
+	width: 100%;
+	background: #5c6ac4;
+	border-color: #5c6ac4;
+	color: #FFFFFF;
+}
