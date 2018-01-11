@@ -48,6 +48,11 @@ body {
 	opacity: 0;
 }
 
+#message-box {
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+}
+
 #sign-up-btn {
 	width: 100%;
 	background: #5c6ac4;
