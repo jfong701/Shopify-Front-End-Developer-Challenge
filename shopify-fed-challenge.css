@@ -3,18 +3,14 @@ body {
 }
 
 .container {
-	font-family: Consolas,Helvetica,non-serif;
+	font-family: Helvetica,non-serif;
+	color: white;
 }
 
-.jumbotron {
-	background: rgba(0, 0, 0, 0);
-	border-bottom-style: solid;
-	border-color: red;
-}
-
-.jumbotron h1 {
-	color: #FFFFFF;
+.header-box {
 	font-size: 24px;
+	margin-top: 3em;
+	margin-bottom: 0em;
 }
 
 .input-group-addon {
