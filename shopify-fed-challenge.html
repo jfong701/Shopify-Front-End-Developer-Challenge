@@ -4,9 +4,9 @@
     <title>Shopify Front End Dev Challenge</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="shopify-fed-challenge.css">
 	<script src="shopify-fed-challenge.js"></script>
 </head>
@@ -26,7 +26,13 @@
 					<input type="text" class="form-control input-lg" id="email" placeholder="Email Address">
 				</div>
 				<div class="col-sm-4">
-					<input type="text" class="form-control input-lg" id="interests" placeholder="Interested in...">
+					<select class="form-control input-lg" id="interests">
+					  <option selected disabled>Interested in...</option>
+					  <option value="shopify">Shopify</option>
+					  <option value="html">HTML</option>
+					  <option value="css">CSS</option>
+					  <option value="javascript">JavaScript</option>
+					</select>
 				</div>
 			</div>
 			<div>
