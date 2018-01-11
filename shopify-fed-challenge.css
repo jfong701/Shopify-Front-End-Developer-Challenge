@@ -41,6 +41,7 @@ body {
 #message {
 	color: #C23628;
 	font-weight: bold;
+	opacity: 0;
 }
 
 #sign-up-btn {
