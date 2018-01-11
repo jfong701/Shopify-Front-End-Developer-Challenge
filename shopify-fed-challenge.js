@@ -8,7 +8,7 @@ function signUp() {
 		msg_prompt.style.opacity = 1;
 	} else {
 		msg_prompt.style.opacity = 0;
-		console.log(email);
+		console.log(email, getSelectedInterest());
 	}
 }
 
@@ -18,4 +18,11 @@ Simple JS email validation from: https://stackoverflow.com/questions/46155/how-c
 function validEmail(email) {
 	var regex = /\S+@\S+\.\S+/;
 	return regex.test(email);
+}
+
+
+/* returns a string of what would be sent to the server. */
+function getSelectedInterest() {
+	var interests_elem = document.getElementById("interests");
+	return interests_elem.options[interests_elem.selectedIndex].value;
 }
