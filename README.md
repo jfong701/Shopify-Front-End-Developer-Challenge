@@ -7,4 +7,4 @@ Click the link below to view the page.
 
 * Uses Bootstrap for responsive design
 
-See the github repo [here](https://github.com/jfong701/Shopify-Front-End-Developer-Challenge).
+See the github repo with source code [here](https://github.com/jfong701/Shopify-Front-End-Developer-Challenge).
