@@ -8,9 +8,13 @@ body {
 }
 
 #header-box {
-	font-size: 24px;
 	margin-top: 3em;
 	margin-bottom: 0em;
+}
+
+#headline {
+	font-size: 24px;
+	font-weight: bold;
 }
 
 #content-box {
@@ -36,6 +40,7 @@ body {
 
 #message {
 	color: #C23628;
+	font-weight: bold;
 }
 
 #sign-up-btn {
@@ -43,4 +48,5 @@ body {
 	background: #5c6ac4;
 	border-color: #5c6ac4;
 	color: #FFFFFF;
+	font-weight: bold;
 }
