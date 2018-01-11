@@ -50,3 +50,16 @@ body {
 	color: #FFFFFF;
 	font-weight: bold;
 }
+
+#enclosing-div {
+	text-align: center;
+}
+
+#unsubscribe-link {
+	color: #FFFFFF;
+	text-decoration: underline;
+	display: inline-block;
+	position: absolute;
+	bottom: 1em;
+	transform: translateX(-50%);
+}
