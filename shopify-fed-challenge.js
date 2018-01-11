@@ -8,6 +8,7 @@ function signUp() {
 		msg_prompt.style.opacity = 1;
 	} else {
 		msg_prompt.style.opacity = 0;
+		console.log(email);
 	}
 }
 
